@@ -1,0 +1,113 @@
+@charset "utf-8";
+/*Style Mohamed*/
+
+body{
+    background: gray;
+}
+#wrapper{
+    width: 80%;/* 960px; */  /* 96% du body */
+    margin-right: auto;
+    background: white;
+    /* background: violet; */
+    margin-left: auto;
+}
+header{
+    width:  97.9166666%;/* 940px; */
+    margin-left: 1.063829%;/* 10px; */
+    margin-right: 1.063829%;/* 10px; */
+    background: #779307;
+}
+nav{
+    width:  97.92%;/* 940px;  */
+    background: peru;
+    margin-top: 2.7083333%; /* 26px; */
+    padding-left: 1.063829%; /* 10px; */
+    padding-right: 1.063829%; /* 10px; */
+    padding-bottom: 2.6595744%; /* 25px */
+}
+nav ul li{
+    display: inline-block;
+    /* margin-left: 1.063829%; */
+    padding-right: 1.063829%;
+    margin-top: 2.7083333%; 
+}
+nav ul li a{
+  
+    background: #fff;
+    height: 4.375%; /* 42px; */
+    line-height: 4.375%; /* 42px */
+}
+aside{
+    margin-top: 8.3094555%; /* 58px; */
+    margin-left: 1.063829%;/* 10px; */
+    margin-right:1.063829%;/*  10px; */
+    width: 22.9166666%;/* 220px; */
+    background: #fe9c00;
+    float: left;
+    border-right-color:#e8e8e8;
+    border-right-style: solid;
+    border-right-width: 0.9090909%; /* 2px; */
+    min-height: 500px;
+}
+#content{
+   /*  margin-left: -1.4326647%; */ /* 10px; */
+    margin-top: 8.3094555%;/* 58px; */
+    min-height: 500px;
+    background: #dedede;
+    width: 72.92%;/* 698px; */
+    float: left;
+}
+.clear{
+    clear: both;
+}
+footer{
+    margin-top: 2.1276595%;/* 20px; */
+    margin-left: 1.063829%;/* 10px; */
+    margin-right: 1.063829%;/* 10px; */
+    background: #663300;
+    width: 97.92%;/* 940px; */
+}
+/* media queries */
+
+@media screen and (max-width: 1000px){
+    body{
+        background: lightblue;
+    }
+    #wrapper{
+        width: 950px;
+        background: purple;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        background: lightcoral;
+    }
+    #wrapper{
+        width: 760px;
+        background: red;
+    }
+}
+@media screen and (max-width: 550px){
+    body{
+        background: yellow;
+    }
+    header h1{
+        font-size: 1.5em;
+    }
+    nav ul li{
+        display: block;
+    }
+   
+}
+@media screen and (max-width: 320px){
+    body{
+        background:green;
+    }
+    header h1{
+        font-size: 1.5em;
+    }
+    nav ul li{
+        display: block;
+    }
+   
+}
